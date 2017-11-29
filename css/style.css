@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+	margin: 0 auto;
+
+}
+.clear{
+	clear: both;
+}
+.container{
+	background-color: black;
+}
+.main_container{
+	margin: 0 auto;
+	width: 990px;
+	height: auto;
+	background-color: white;
+	padding: 20px 20px;
+}
+header {
+	height: 65px;
+}
+.logo {
+	float: left;
+	width: 400px
+}
+nav,.inputdata input,.displaydetail h6 {
+	float: right;
+	}
+nav {
+	width: 340px;
+	font-family: cursive;
+	font-weight: none;
+	font-size: 15px;
+}
+
+
+nav ul {
+	list-style: none;
+	width: 400px;
+	margin-top: 32px;
+}
+nav ul li{
+	float:left;
+	line-height: 1.0em;
+	color:#1e5799;
+	border-right: 1px solid #1e5799;
+	margin-left: 3px;
+	padding: 0px 23px;
+}
+
+nav ul li:last-child  {
+    border:none;
+}
+hr{
+	margin-bottom: 0
+}
+section{
+	display: inline-block;
+}
+.tiles{
+	width:200px;
+	float: left;
+	margin-right: 20px;
+}
+.head{
+	background-color:#dddddd;
+}
+
+.head h3{
+	margin-bottom: 0px;
+	font-weight: normal;
+	padding: 5px;
+}
+.topbody,.bottombody{
+	font-size: 13px;
+	background-color:#eeeeee;
+	padding: 4px 9px 1px 9px;
+	text-align: justify;
+	}
+.topbody p{
+margin-top: 0px;
+line-height: 14px;
+text-align: justify;
+}
+.bottombody ul{
+    padding-left: 0;
+    margin: 0;
+}
+.bottombody ul li{
+	list-style: none;
+}
+.bottombody ul li p{
+	font-style: italic;
+	font-size: 14px;
+}
+.bottombody .button{
+	width: 82px;
+    text-align: center;
+    height: 24px;
+    background-color: #9f9f9f;
+    color: white;
+    margin: 20px 0px 10px 105px;
+    border: none;
+}
+.main_block{
+	float:right;
+}
+
+.middlebody{
+	background-color:#eeeeee;
+	display: inline-block;
+}
+.middlebody>img{
+	width: 754px;
+	padding: 7px;
+}
+.form_block{
+ 	width: 745px;
+ 	margin: 0 auto;
+ 	
+ }
+.mission 
+{
+	width: 333px;
+	margin: 0px;
+	font-size: 13px;
+	text-align: justify;
+	padding: 0px 10px;
+	float: left;
+}
+.mission h4{
+	font-weight: normal;
+	font-size: 16px;
+}
+.details
+{
+	width: 326px;
+	float: left;
+	padding-left: 10px;
+}
+.details h4{
+	font-weight: normal;
+	font-size: 16px;
+}
+input[type="radio"] {
+  margin-right: 0px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+form .button
+{
+	width: 55px;
+	text-align: center;
+	background-color: #9f9f9f;
+	color: white;
+	margin-left: 212px;
+	margin-top: 10px;
+	border:none;
+}
+label{
+	font-weight: normal;
+      font-size: 13px;
+}
+
+form input{
+	margin-bottom: 5px;
+	border-top-style:ridge;
+	border-left-style: none;
+	margin-left: 20px;
+}
+.inputdata{
+	width: 214px;
+}
+.inputdata input{
+	width: 135px;
+	
+}
+.inputdata label,.displaydetail h5{
+	float: left;
+}
+.displaydetail h6{
+	margin-right: 122px;
+	font-size: 11px;
+}
+footer{
+	text-align: center;
+	color:#b6b6b6;
+	margin-top: 15px;
+	}
+footer p{
+	margin-bottom: 0;
+	font-size: 13px;
+}
