@@ -1,0 +1,358 @@
+body{
+overflow-x: hidden;
+}
+.sense{
+width: 118px;
+height: 120px;
+}
+ul
+{
+list-style: none;
+}
+.glyphicon{
+font-size: 30px;
+padding: 0px 20px 19px 0px;
+color:black;
+}
+ul li a{
+font-weight: normal;
+color:#34ac98;
+font-family: initial;
+font-size: 17px;
+}
+#tab ul li{
+background-color: #eff8f7;
+}
+.signup{
+border-top: 1px dashed #ccc;
+border-bottom: 1px dashed #ccc;
+height: 42px;
+}
+.signup p{
+font-size: 11px;
+padding: 0px;
+}
+.signup button{
+margin-left: 10px;
+font-weight: bold;
+background-color: #eff8f7;
+width: 95px;
+height: 23px;
+border-radius: 5px;
+font-size: 12px;
+}
+.signup input{
+width: 160px;
+height: 23px;
+border-top-style: ridge;
+}
+.tiles .col-md-3 h5,.tiles .col-sm-3 h5{
+color: #34b3c1;
+font-size: 15px;
+}
+.tiles p{
+font-style: unset;
+font-size: 13px;
+}
+.tile h6{
+    color:#AAA;
+}
+span{
+    color: #34b3c1;
+}
+.copyright nav ul li a{
+float:left;
+color:#34b3c1;
+border-right: 1px solid #aaaabc;
+line-height: 11px;
+font-size: 12px;
+padding: 0px 4px 0px 4px;
+}
+.copyright nav  ul li:first-child a{
+padding-left: 0;
+}
+.copyright nav  ul li:last-child a{
+border-right: none;
+padding-right: 0;
+}
+.connect a{
+float:right;
+}  
+.copyright p{
+color:#aaaabc;
+font-size: 12px;
+} 
+.copyright nav{
+padding-bottom: 5px;
+}
+footer{
+border-top: 2px solid #e5e5e5;
+padding-top: 13px;
+margin-top: 35px;
+}
+.connect .fa-facebook,.connect .fa-twitter,.connect .fa-wifi{
+font-size: 32px;
+color: #989898;
+}
+footer .row .copyright{
+padding: 6px 0px 8px 12px;
+}
+footer .row .connect{
+padding: 6px 15px 8px 0px;
+}
+.copyright nav ul
+{
+padding: 0;
+}
+.facebooktwitter{
+padding-top: 53px;
+}
+.p1{
+background-color: rgb(255,255,255);
+position: absolute;
+width: auto;
+font-size: 20px;
+padding: 11px;
+}
+.p2{
+background-color: rgb(0, 0, 0);
+color: white;
+width: auto;
+position: absolute;
+padding: 10px;
+font-size: 15px;
+}
+.facebooktwitter .twitter h4,.facebook h4{
+font-size: 11px;
+font-weight: normal;
+font-family: times new roman;
+}
+.twitter h4,.facebook h4{
+border-bottom: 1px dashed #ccc;
+padding-bottom: 3px;
+}
+.facebooktwitter .twitter img{
+width: 13px;
+margin: 0px;
+}
+.facebooktwitter .twitter .button,.facebook .button{
+width: 171px;border-radius: 4px;
+background:white;color:#34ac98;font-family: times new roman;
+font-style: italic;
+border: 1px solid #e5e5e5;
+padding: 7px 16px 7px 17px;
+font-size: 12px;
+}
+.facebooktwitter .facebook p{
+font-family: times new roman;
+font-size: 11px;
+}
+.facebooktwitter .facebook img{
+width: 21px;
+margin: 0px;
+}
+.facebook{
+margin-top: 23px;
+}
+.foodimage img{
+width: 100%;
+}
+/*For Mobile starts*/
+@media only screen and (max-width: 764px) and (min-width: 320px) {
+    
+    nav ul li{
+    float:left;
+    display: inline;
+    }  
+    .col-md-3{
+    display: flex; flex-direction: column;
+    }
+    #first{
+    order:2;
+    margin-top: 20px;
+    }
+    #second{
+    order:1;
+    padding: 0px 0px 10px 0px;
+    border-bottom: 1px solid #e5e5e5;
+    }
+    ul{
+    padding: 0px;
+    }
+    ul li:nth-child(1){
+    padding-left:0px;
+    }
+    ul li:nth-child(n){
+    float:left;
+    margin:0px 0px 0px 0px;
+    }
+    .col-xs-12 .col-xs-12{
+    text-align: center;
+    }
+    ul li a{
+   font-size: 12px;
+   padding-left: 16px;
+    }
+   .row .col-xs-12{
+    padding-left: 0;
+    padding-right: 0;
+    }
+   .foodimage img{
+    height: 306px;
+    margin-top: 24px;
+    }
+    .signup input,.signup button{
+    margin-left: 14px;
+    }
+   .signup{
+    margin-top: 15px;
+    padding: 14px 0px 97px 0px;
+    }
+    .tiles{
+    margin-top: 25px;
+   }
+   .tile img{
+    height: 200px;
+   }
+   .copyright p{
+    font-size: 8px;
+    } 
+    .copyright nav ul li{
+    font-size: 8px;
+    }
+    .connect .fa-facebook,.connect .fa-twitter,.connect .fa-wifi{
+    font-size: 28px;
+    }
+   .p1{
+    width: 100%;
+    top: 269px;
+    padding: 7px 0px 6px 0px;
+    font-size: 13px;
+    background-color: rgba(255,255,255,0.8);
+    }
+    .p2{
+    top: 300px;
+    font-size: 10px;
+    padding: 8px 9px 8px 0px;
+    }
+    .copyright nav ul li a {
+    font-size: 9px;
+    padding: 0px 2px 0px 2px;
+    }
+}
+/*For Mobile Ends*/
+/*For Tab Starts*/
+@media only screen and (max-width:991px) and (min-width:765px){
+    .container{
+    padding-top: 22px;
+   }
+    .col-sm-12 .col-sm-8
+    {
+    float: right;
+    padding: 36px 0px 0px 0px;
+    margin-right: 0px;
+    }
+    .col-sm-12 .col-sm-3{
+    padding: 0px 4px;
+    }
+    .col-sm-8 ul{
+    display: inline-flex;
+    }
+   .glyphicon{
+    margin-left: 22px;
+    padding-bottom: 12px;
+    }
+    ul li a{
+    padding-right: 0px;
+    }
+    ul li{
+    text-align: center;
+    }
+    .foodimage img{
+    height: 436px;
+    margin-top: 24px;
+    }
+    .col-sm-12 .nav .active a{
+    background-color: #d9efec;
+    color: #60beae;
+    }
+    .signup i{
+    margin:0;
+    }
+    .signup{
+    margin-top: 30px;
+    padding: 4px 0px 0px 0px;
+    }
+    .tiles{
+    margin-top: 26px
+    }
+   .tiles img{
+    width: 155px;
+    height: 120px;
+    }
+    .p1{
+    top: 304px;
+    }
+    .p2{
+    top: 354px;
+    }
+}
+/*For Tab Ends*/
+/*For Laptop Starts*/
+@media only screen and (min-width: 992px){
+    .container{
+    padding: 53px 50px 0px 50px;
+    }
+    .row{
+    padding: 10px;
+    }
+    .glyphicon{
+        top:7px;
+    }
+    nav ul{
+    padding-left: 0px;
+    padding-right: 9px;
+    }
+    #first{
+    padding-bottom: 31px;
+     }
+    .foodimage img{
+    height: 451px;
+    }
+    #tab{
+    float: right;
+    }
+    #tab ul li{
+    padding: 2px 0px 3px 0px;
+    }
+    .col-md-9 .nav .active a{
+    background-color: #d9efec;
+    color: #60beae;
+    }
+    #tab ul li a p{
+    font-size: 12px;
+    padding: 0;
+    margin-bottom: 0;
+    }
+    #tab ul{
+    padding: 0px;
+    }
+    #tab ul li a{
+    padding: 16px 0px 16px 16px;
+    text-align: left;
+    }
+    .signup{
+    margin: 32px 0px;
+    padding: 8px 0px 39px 0px;
+    }
+    .tiles img{
+    width: 155px;
+    height: 120px;
+   }
+   .p1{
+    top: 280px;
+    }
+    .p2{
+    top: 330px;
+    }
+}/*For Laptop Ends*/
